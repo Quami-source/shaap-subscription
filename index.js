@@ -272,10 +272,10 @@ let messages = [];
     //const PORT = 4000;
     httpServer.listen(process.env.PORT || 4000, () => {
         console.log(
-            `🚀 Query endpoint ready at http://localhost:${PORT}${server.graphqlPath}`
+            `🚀 Query endpoint ready at http://localhost:4000${server.graphqlPath}`
         );
         console.log(
-            `🚀 Subscription endpoint ready at ws://localhost:${PORT}${server.graphqlPath}`
+            `🚀 Subscription endpoint ready at ws://localhost:4000${server.graphqlPath}`
         );
     });
 
